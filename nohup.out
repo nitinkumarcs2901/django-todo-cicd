@@ -1,0 +1,72 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 08, 2022 - 16:46:30
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 08, 2022 - 16:47:11
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 08, 2022 - 16:47:39
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Error: You don't have permission to access that port.
+[08/Aug/2022 16:48:38] "GET /todos/ HTTP/1.1" 200 3515
+[08/Aug/2022 16:48:38] "GET /static/css/style.css HTTP/1.1" 304 0
+[08/Aug/2022 16:48:44] "POST /todos/add/ HTTP/1.1" 302 0
+[08/Aug/2022 16:48:44] "GET /todos/ HTTP/1.1" 200 4100
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 24, 2022 - 12:59:54
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[24/Nov/2022 13:00:32] "GET /todos/ HTTP/1.1" 200 4137
+[24/Nov/2022 13:00:35] "GET /todos/ HTTP/1.1" 200 4137
+[24/Nov/2022 13:00:44] "POST /todos/add/ HTTP/1.1" 302 0
+[24/Nov/2022 13:00:44] "GET /todos/ HTTP/1.1" 200 4721
+[24/Nov/2022 13:00:58] "POST /todos/23/update HTTP/1.1" 302 0
+[24/Nov/2022 13:00:58] "GET /todos/ HTTP/1.1" 200 4758
+[24/Nov/2022 13:01:10] "POST /todos/add/ HTTP/1.1" 302 0
+[24/Nov/2022 13:01:11] "GET /todos/ HTTP/1.1" 200 5348
+[24/Nov/2022 13:01:14] "POST /todos/3/update HTTP/1.1" 302 0
+[24/Nov/2022 13:01:14] "GET /todos/ HTTP/1.1" 200 5385
